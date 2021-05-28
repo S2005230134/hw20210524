@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font: 12px "SimSun","宋体";
+}
+
+.art{
+    width: 768px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2{
+    text-overflow: ellipsis;
+    font-size: 30px;
+    width: 400px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+span{
+    font-size: 25px;
+}
+
+.dk{
+    font-size: 25px;
+    color: #ee1a1a;
+    border: 1px solid rgba(238,26,26,.3);
+}
+
+.project-b{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and(min-width: 768px) {
+    .body{
+        width: 10%;
+        height: calc(100vh - 10%);
+    }
+}
